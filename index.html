@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Previsão do tempo Hoje!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="card">
+    <div class="search">
+      <input class="city-input" type="text" name="city" placeholder="Digite o nome da cidade">
+      <button><img src="./img/search.png" alt="botão pesquisar"></button>
+    </div>
+    <div class="error">
+      <p>Cidade não encontrada. Por favor, tente novamente.</p>
+    </div>
+    <div class="tempo">
+      <img class="tempo-icon" src="./img/clear.png" alt="desenho ilustrativo do tempo">
+      <h1 class="temp">25ºc</h1>
+      <h2 class="city">São Paulo</h2>
+
+      <div class="detalhes">
+        <div class="col">
+          <img src="./img/humidity.png" alt="umidade do ar">
+          <div>
+            <p class="umidade">50%</p>
+            <p>umidade</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="./img/wind.png" alt="força do vento">
+          <div>
+            <p class="wind">14Km/h</p>
+            <p>Vel do vento</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
